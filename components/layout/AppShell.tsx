@@ -14,6 +14,7 @@ import {
   Settings,
   StepForward,
   Sun,
+  Target,
   X,
   LucideIcon
 } from "lucide-react";
@@ -27,6 +28,7 @@ type NavItem = {
 
 const NAV_ITEMS: NavItem[] = [
   { href: "/", label: "Dashboard", icon: Home },
+  { href: "/missions", label: "Guided Missions", icon: Target, badge: "Challenges" },
   { href: "/playground", label: "ML Playground", icon: FlaskConical },
   { href: "/network", label: "Neural Network Studio", icon: BrainCircuit },
   { href: "/visualizer", label: "Algorithm Visualizer", icon: StepForward },
